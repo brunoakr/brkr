@@ -27,7 +27,7 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top:100%;
+     top:100%;
     widht: 60vw; /*add 25/07*/
 }
 
