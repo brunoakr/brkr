@@ -1,4 +1,4 @@
-.carrossel-titulo {
+.carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
     text-align: center;
@@ -6,13 +6,13 @@
     font-size: 18px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
-  }
+}
 
 .swiper-slide img {
     width: 100%;
 }
 
-/*configurar carrossel inserir na aula 25/07*/
+
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
@@ -32,7 +32,7 @@
     padding: 1em;
 }
 
-.card-descricao {
+.card__descrição {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
@@ -49,23 +49,23 @@
 }
 
 
-.descricao-titulo {
+.descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
 }
 
-.descricao-titulo-livro {
+.descrição__titulo-livro {
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 
-.descricao-texto {
+.descrição__texto {
     font-size: 14px;
 }
 
-.botoes__ancora {
+.botões__ancora {
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);
@@ -73,15 +73,15 @@
     text-decoration: none;
 }
 
-.botoes-item {
+.botões__item {
     margin: 0 0.5em;
 }
 
 @media screen and (min-width:1024px) {
-    .carrossel_titulo {
-        font-size: 26px
+    .carrossel__titulo {
+        font-size: 26px;
     }
-    .swioer {
+    .swiper {
         width: 60%;
     }
     .swiper-pagination {
@@ -92,4 +92,4 @@
         display: block;
         top: 60%;
     }
-    
+}
