@@ -6,3 +6,10 @@ hr {
     background-color: var(--branco);
     padding: 1em;
 }
+
+.liste-rodapé {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
