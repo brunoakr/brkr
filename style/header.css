@@ -57,6 +57,9 @@
 .container__botao {
     display: none;
 }
+.container__texto{
+    display__none;
+}
 
 @media screen and (min-width: 1024px) { /*atualizado na aula 19/08 */  
  .container__titulo,
@@ -111,5 +114,15 @@
         display: flex;
         align-items: center;
         text-decoration: none;
-        color: var
-}
+        color: var(--preto);
+        padding-right: 30px;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
+    }
+} 
